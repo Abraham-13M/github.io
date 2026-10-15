@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.contenedor {
+    width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dato {
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
