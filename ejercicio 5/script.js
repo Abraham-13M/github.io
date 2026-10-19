@@ -1,13 +1,22 @@
-let numero = Number(prompt("Introduce un número:"));
+let boton = document.getElementById("comprobar");
 
-if (numero % 2 == 0) {
-    console.log("El número " + numero + " es par");
+boton.addEventListener("click", function () {
 
-    document.getElementById("resultado").textContent =
-        "El número " + numero + " es par";
-} else {
-    console.log("El número " + numero + " es impar");
+    let numero = Number(document.getElementById("numero").value);
 
-    document.getElementById("resultado").textContent =
-        "El número " + numero + " es impar";
-}
+    if (numero % 2 == 0) {
+
+        document.getElementById("resultado").textContent =
+            "El número " + numero + " es par";
+
+        console.log("El número " + numero + " es par");
+
+    } else {
+
+        document.getElementById("resultado").textContent =
+            "El número " + numero + " es impar";
+
+        console.log("El número " + numero + " es impar");
+    }
+
+});
