@@ -9,14 +9,10 @@ boton.addEventListener("click", function () {
         document.getElementById("resultado").textContent =
             "El número " + numero + " es par";
 
-        console.log("El número " + numero + " es par");
-
     } else {
 
         document.getElementById("resultado").textContent =
             "El número " + numero + " es impar";
-
-        console.log("El número " + numero + " es impar");
     }
 
 });
